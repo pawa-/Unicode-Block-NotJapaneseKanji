@@ -1,0 +1,23 @@
+NAME
+    Unicode::Block::NotJapaneseKanji - provides NotJapaneseKanji block
+
+SYNOPSIS
+      use Unicode::Block::NotJapaneseKanji;
+      use utf8;
+
+      if ($text =~ /\p{InNotJapaneseKanji}/)
+      {
+          print '$text contains NotJapaneseKanji';
+      }
+
+DESCRIPTION
+    Unicode::Block::NotJapaneseKanji provides NotJapaneseKanji block
+
+AUTHOR
+    pawa <pawapawa@cpan.org>
+
+SEE ALSO
+LICENSE
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
